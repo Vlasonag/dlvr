@@ -1,0 +1,143 @@
+﻿@CHARSET "UTF-8";
+
+.body {
+	min-width: 1000px;
+    max-width: 1600px;
+    position: absolute;
+    top: 0;
+    left: -8px;
+    width: 100.5%;
+    height: 10000px;
+    margin: 0;
+    padding: 0;
+    background-color: WHITE;
+    
+}
+	
+.header-top {
+	display: flex;
+	width:100%;
+	height: 120px;
+	padding-left: 43%;
+	color: #a74646;
+	font-size: 90px;
+	font-family: Marker Felt, fantasy;
+	}
+.header-top a{
+	
+	width: auto;
+	display: block; /* Ссылка как блочный элемент */
+    height: 100%; /* Высота на весь слой */
+    color: #a74646; /* Цвет ссылки */
+	}
+.header-mid {
+	width:100%;
+	height: 105px;
+	margin: 0;
+}
+.header-mid-telephone {
+}
+hr {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.000001em;
+    margin-block-end: 0.000001em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 0.8px;
+    border-color: #a74646;
+}
+.header-mid p{
+	display: flex;
+	margin: 0;
+	vertical-align: top;
+	padding-left: 42%;
+	font-size: 37.5px;
+	font-family: Marker Felt, fantasy;
+}
+.header-mid img{
+	margin: 0;
+	width: 40px;
+    height: 40px;
+}
+.header-mid-tools {
+	display: flex;
+	padding-top: 7px;
+	height: 56px;
+	font-family: Roboto;
+	font-size: 30px;
+	
+}
+.header-mid-tools p1{
+	border-top-left-radius: .3em;
+    border-bottom-left-radius: .3em;
+    border-top-right-radius: .3em;
+    border-bottom-right-radius: .3em;
+	background: #a74646; 
+	color: WHITE;
+	height: 40px;
+	
+}
+.header-mid-tools select{
+	
+	margin-left: 0.5%;
+	height: 40px;
+	font-family: Roboto;
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: auto;
+    vertical-align: bottom;
+    font-size: 25px;
+	
+}
+.header-mid-tools nobr {
+	
+	margin-left: 18.5%;
+    display: inline-flex;
+    width: auto;
+    height: 56px;
+	
+}
+.header-mid-tools a{
+	
+	display: inline-block;
+    width: auto;
+        height: 40px;
+	text-decoration: none;
+	color: WHITE;
+    background: #a74646; /* Цвет фона */
+    border-top-left-radius: .3em;
+    border-bottom-left-radius: .3em;
+    border-top-right-radius: .3em;
+    border-bottom-right-radius: .3em;
+	
+}
+.header-navigation {
+	display: flex;
+	align-items: center;
+	width:100%;
+	height: 56px;
+	background-color: BLACK;
+}
+.header-navigation nobr{
+    margin-left: 12%;
+    display: inline-flex;
+    width: auto;
+    height: 56px;
+    font-size: 32px;
+    margin-top: 0.45%;
+}
+.header-navigation a{
+	display: inline-block;
+	text-decoration: none;
+	color: WHITE;
+}
+.header-navigation img{
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	margin-top: 3%;
+}
